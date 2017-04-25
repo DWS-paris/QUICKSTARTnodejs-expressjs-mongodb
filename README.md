@@ -35,7 +35,7 @@ Ouvrir une nouvelle fenêtre du terminal pour lancer le shell MongoDb, créer un
 ```
 mongo
 use tasks
-db.list.insert([{title:"Installer MongiDB", isDone: false}, {title: "Configurer MongoDB", isDone: false}])
+db.list.insert([{title:"Installer MongoDB", isDone: false}, {title: "Configurer MongoDB", isDone: false}])
 ```
 <br/>
 
