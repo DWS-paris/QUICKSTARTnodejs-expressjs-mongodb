@@ -11,14 +11,41 @@ Cette application utilise des versions récentes (avril 2017) des différents fr
 
 ## Installation
 
-Cloner ce repo, installer les dépendances et lancer le serveur
+Cloner ce repo, installer les dépendances et créer un dossier `data` :
 ```
 git clone git@github.com:DWS-paris/QUICKSTARTnodejs-expressjs-mongodb.git myNodeMongoServer
 cd myNodeMongoServer
-npm install && npm start
+npm install && mkdir data
 ```
 <br/>
 
+Installer MongoDb (Linux), définir l'adresse du serveur de bases de données et lancer le server de bases de données :
+```
+sudo npm install mongodb -g
+mongod dbpath /path/to/myNodeMongoServer/data
+mongod
+```
+<br/>
+> Le serveur de bases de données doit toujours rester actif.
+
+<br/>
+
+Ouvrir une nouvelle fenêtre du terminal pour lancer le shell MongoDb et créer une collection `task` :
+```
+mongo
+db.createCollection("tasks")
+```
+<br/>
+> Le shell ne sert qu'à créer la collection à utiliser dans l'application, il peut être quitter en tapant les touches `cmd + c`.
+
+<br/>
+
+Ouvrir une nouvelle fenêtre du terminal pour lancer le serveur NodeJs de l'application :
+```
+cd path/to/myNodeMongoServer/data
+npm start
+```
+<br/>
 > La commande `npm start` correspond à `nodemon server.js`. Cette commande est configurée pour relancer le serveur à chaque modifications.
 
 <br/><br/>

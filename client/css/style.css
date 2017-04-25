@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 
 
 /*
@@ -34,8 +32,9 @@ Reset
         font-weight: 100;
     }
 
-    a{
+    a, .fa{
         text-decoration: none;
+        cursor: pointer;
 
         -moz-transition: all .5s;
         -webkit-transition: all .5s;
@@ -61,14 +60,78 @@ Header
         color: grey;
     }
 
+    h2 {
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: steelblue;
+        margin-bottom: .5rem;
+    }
+
+    h2 span {
+        color: darkred;
+        padding-left: .5rem;
+    }
+
 
 /*
 Main
 */
     main{
         padding: 2rem;
+        max-width: 60rem;
     }
 
+
+
+/*
+Form
+*/
+    form{
+        margin-bottom: 2rem;
+    }
+
+    form:after, article:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 1rem;
+        border-radius: .5rem;
+        border: none;
+        font-size: 2rem;
+        font-family: inherit;
+        width: 88%;
+        float: left;
+        background-color: #eee;
+    }
+
+    button[type="submit"] {
+        border: none;
+        background: none;
+        font-size: 4rem;
+
+        width: 10%;
+        float: right;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .fa-plus:hover {
+        color: steelblue;
+    }
+
+    .errorAddTask{
+        color: red;
+    }
+
+    
 /*
 Footer
 */
