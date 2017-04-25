@@ -38,7 +38,9 @@ db.createCollection("tasks")
 <br/>
 > Le shell ne sert qu'à créer la collection à utiliser dans l'application, il peut être quitter en tapant les touches `cmd + c`.
 
+
 <br/>
+
 
 Ouvrir une nouvelle fenêtre du terminal pour lancer le serveur NodeJs de l'application :
 ```
