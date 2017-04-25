@@ -127,10 +127,77 @@ Form
         color: steelblue;
     }
 
-    .errorAddTask{
+    .errorAddTask, .ajaxError{
         color: red;
+        display: none;
     }
 
+/*
+Task liste
+*/
+    .taskListItem{
+        margin: 2rem auto;
+        padding-bottom: 1rem;
+        border-bottom: .1rem dotted rgba(0, 0, 0, .1);
+
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    }
+
+    .taskIsDonetrue{
+        opacity: .5;
+    }
+
+    .taskListItem.erase{
+        height: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .taskListItem h2 {
+        font-size: 2rem;
+        font-weight: 200;
+        text-transform: none;
+        color: black;
+        float: left;
+        width: 88%;
+
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+    }
+
+    .taskListItem .fa {
+        font-size: 2rem;
+        padding-left: 1rem;
+        color: grey;
+    }
+
+    h2 + p {
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 200;
+        color: grey;
+        padding-top: 1rem;
+        text-align: left;
+    }
+
+    .taskListItem .taskIsDone{
+        opacity: .3;
+    }
+
+    .fa-check-circle:hover {
+        color: seagreen;
+    }
+
+    .fa-trash:hover {
+        color: darkred;
+    }
     
 /*
 Footer

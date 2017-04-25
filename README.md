@@ -22,7 +22,7 @@ npm install && mkdir data
 Installer MongoDb (Linux), définir l'adresse du serveur de bases de données et lancer le server de bases de données :
 ```
 sudo npm install mongodb -g
-mongod dbpath /path/to/myNodeMongoServer/data
+mongod --dbpath /path/to/myNodeMongoServer/data
 mongod
 ```
 <br/>
@@ -34,11 +34,11 @@ mongod
 Ouvrir une nouvelle fenêtre du terminal pour lancer le shell MongoDb et créer une collection `task` :
 ```
 mongo
-db.createCollection("tasks")
+use tasks
 ```
 <br/>
 
-> Le shell ne sert qu'à créer la collection à utiliser dans l'application, il peut être quitter en tapant les touches `cmd + c`.
+> Le shell ne sert qu'à créer la collection à utiliser dans l'application, il peut être quitter en tapant la commande `exit`.
 
 
 <br/>
