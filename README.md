@@ -1,5 +1,6 @@
-# NodeJS & ExpressJS Quickstart
+# NodeJS, ExpressJS & MongoDb Quickstart
 Application permettant d'initialiser un server NodeJS utilisant ExpressJS pour la gestion des vues. Les téchnologies suivantes sont utilisées :
+- [MongoDb](https://www.mongodb.com/)
 - [ExpressJs](http://expressjs.com/fr/)
 - [NodeJS](https://nodejs.org/en/)
 - [NodeMon](https://nodemon.io/)
@@ -12,8 +13,8 @@ Cette application utilise des versions récentes (avril 2017) des différents fr
 
 Cloner ce repo, installer les dépendances et lancer le serveur
 ```
-git clone git@github.com:DWS-paris/NODE-EXPRESS-JSquickstart.git myNodeServer
-cd myNodeServer
+git clone git@github.com:DWS-paris/QUICKSTARTnodejs-expressjs-mongodb.git myNodeMongoServer
+cd myNodeMongoServer
 npm install && npm start
 ```
 <br/>
