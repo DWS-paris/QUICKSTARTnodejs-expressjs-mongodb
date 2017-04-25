@@ -1,5 +1,5 @@
 # NodeJS, ExpressJS & MongoDb Quickstart
-Application permettant d'initialiser un server NodeJS utilisant ExpressJS pour la gestion des vues. Les téchnologies suivantes sont utilisées :
+Application permettant d'initialiser un server NodeJS utilisant ExpressJS pour la gestion des vues et MongoDB pour la gestion des données. Les téchnologies suivantes sont utilisées :
 - [MongoDb](https://www.mongodb.com/)
 - [ExpressJs](http://expressjs.com/fr/)
 - [NodeJS](https://nodejs.org/en/)
