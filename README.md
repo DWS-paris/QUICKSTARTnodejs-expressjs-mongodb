@@ -31,7 +31,7 @@ mongod
 
 <br/>
 
-Ouvrir une nouvelle fenêtre du terminal pour lancer le shell MongoDb, créer une collection `task` et y ajouter des documents :
+Ouvrir une nouvelle fenêtre du terminal pour lancer le shell MongoDb, créer une base de données `task` et ajouter des documents dans une collection nommée `list` :
 ```
 mongo
 use tasks
@@ -39,7 +39,7 @@ db.list.insert([{title:"Installer MongiDB", isDone: false}, {title: "Configurer 
 ```
 <br/>
 
-> Le shell ne sert qu'à créer la collection et les documents à utiliser dans l'application, il peut être quitter en tapant la commande `exit`.
+> La base de données `task` sera créée si elle est inéxistante, tout comme la collection `list`. Le shell ne sert qu'à créer la collection et les documents à utiliser dans l'application, il peut être quitter en tapant la commande `exit`.
 
 
 <br/>
