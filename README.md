@@ -1,5 +1,5 @@
 # NodeJS & ExpressJS Quickstart
-Application permettant d'initialiser un server NodeJS utilisant ExpressJS pour la gesttion des vues. Les téchnologies suivantes sont utilisées :
+Application permettant d'initialiser un server NodeJS utilisant ExpressJS pour la gestion des vues. Les téchnologies suivantes sont utilisées :
 - [ExpressJs](http://expressjs.com/fr/)
 - [NodeJS](https://nodejs.org/en/)
 - [NodeMon](https://nodemon.io/)
@@ -18,7 +18,7 @@ npm install && npm start
 ```
 <br/>
 
-> La commande `npm start` correspond à `nodemon server.js`. Cette commande est configurer pour relancer le serveur à chaque modifications.
+> La commande `npm start` correspond à `nodemon server.js`. Cette commande est configurée pour relancer le serveur à chaque modifications.
 <br/><br/>
 
 
