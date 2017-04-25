@@ -39,7 +39,7 @@ db.list.insert([{title:"Installer MongiDB", isDone: false}, {title: "Configurer 
 ```
 <br/>
 
-> La base de données `task` sera créée si elle est inéxistante, tout comme la collection `list`. Le shell ne sert qu'à créer la collection et les documents à utiliser dans l'application, il peut être quitter en tapant la commande `exit`.
+> La base de données `task` sera créée si elle est inéxistante, tout comme la collection `list`. Le shell ne sert qu'à créer les éléments utiles à l'application, il peut être quitter en tapant la commande `exit`.
 
 
 <br/>
