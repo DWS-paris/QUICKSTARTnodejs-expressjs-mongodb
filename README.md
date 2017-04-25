@@ -26,6 +26,7 @@ mongod dbpath /path/to/myNodeMongoServer/data
 mongod
 ```
 <br/>
+
 > Le serveur de bases de données doit toujours rester actif.
 
 <br/>
@@ -36,6 +37,7 @@ mongo
 db.createCollection("tasks")
 ```
 <br/>
+
 > Le shell ne sert qu'à créer la collection à utiliser dans l'application, il peut être quitter en tapant les touches `cmd + c`.
 
 
@@ -48,6 +50,7 @@ cd path/to/myNodeMongoServer/data
 npm start
 ```
 <br/>
+
 > La commande `npm start` correspond à `nodemon server.js`. Cette commande est configurée pour relancer le serveur à chaque modifications.
 
 <br/><br/>
