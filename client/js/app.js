@@ -14,6 +14,7 @@ $(document).ready(function(){
 
                 success: function(data){
 
+                    // Vérifier la requête
                     if(data.name == "MongoError"){
                         $('main').html('<p><b>Problème de connexion MongoDB...</b></p><p>Code erreur : ' + data.message + '</p>')
 
@@ -43,7 +44,7 @@ $(document).ready(function(){
 
             // Ajouter des un article dans la dernière section du main
             $('main').append(''+
-                '<article id="task' + id + '" class="taskListItem taskIsDone' + isDone + '">' +
+                '<article id="task' + id + '" class="taskListItem">' +
                     '<h2>' + title + '</h2>' +
                 '</article>'
             );
