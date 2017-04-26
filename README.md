@@ -59,7 +59,7 @@ db.list.insert([{title:"Installer MongoDB", isDone: false}, {title: "Configurer 
 
 Ouvrir une nouvelle fenêtre du terminal pour lancer le serveur NodeJs de l'application :
 ```
-cd path/to/myNodeMongoServer/data
+cd path/to/myNodeMongoServer
 
 npm start
 ```
